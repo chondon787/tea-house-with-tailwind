@@ -10,7 +10,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 <!-- font awsome -->
+<script src="https://kit.fontawesome.com/d609285d95.js" crossorigin="anonymous"></script>
 <script src="https://cdn.tailwindcss.com"></script>
+
 <script>
     tailwind.config = {
       theme: {
@@ -25,6 +27,69 @@
 
 </head>
 <body>
-    
+    <!-- main content -->
+    <main  class="max-w-screen-xl mx-auto px-16 lg:px-28">
+        <header class="lg:flex pt-10 mb-20 a">
+        <!-- text ccontent -->
+            <div>
+                <h1 class="text-5xl md:text-7xl">
+                    It's good <br>
+                    tea time at The <br> Tea House
+                </h1>
+                <br>
+                <p class="w-3/4 text-gray-500">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p><br>
+                <button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-xl text-white font-bold "> Exploure more <i class="fa-solid fa-arrow-right -rotate-45 text-2xl"></i></button><br>
+            </div>
+            <!-- img content -->
+            
+             <div class="relative">
+              <!-- img -->
+               <div> <img class="w-full" src="images/banner.png" alt=""> 
+              </div>
+               <!-- card -->
+               <div class="absolute flex items-center bg-white rounded-xl shadow-lg px-2 py-2 max-w-60 lg:py-4 top-20 md:top-80 md:left-30 lg:left-28  ">
+                <!-- star -->
+                <div class="text-yellow-500 text-2xl"><i class="fa-sharp-duotone fa-solid fa-star"></i></div>
+                 <!-- text -->
+                  <div class="m-2">
+                    <h2 class="font-bold text-2xl">5.00</h2>
+                    <p class="text-gray-400">Trust Pilot Ratings</p>
+                  </div>
+               </div>
+             </div>
+        </header>
+        <!-- future product section -->
+         <section class="py-8 lg:py-24">
+          <!-- tittle section -->
+           <div class="text-center mb-8">
+            <h1 class="text-3xl md:text-4xl font-bold mb-5">Our Featured Products</h1>
+            <p class="text-gray-600 max-w-xl mx-auto ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+           </div>
+         </section>
+         <!-- grid card section -->
+          <div class="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4 gap-6 text-center">
+            <!--product card  -->
+            <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
+              <img class="mx-auto pt-4 " src="images/tea-1.png" alt="">
+              <h1 class="text-2xl mt-4 font-bold">Milk Tea</h1>
+              <p class="text-gray-400 mt-3">Creamer could be replaced by fresh milk</p>
+            </div>
+            <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
+              <img class="mx-auto pt-4 " src="images/tea-2.png" alt="">
+              <h1 class="text-2xl mt-4 font-bold">Milk Tea</h1>
+              <p class="text-gray-400 mt-3">Creamer could be replaced by fresh milk</p>
+            </div>
+            <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
+              <img class="mx-auto pt-4 " src="images/tea-3.png" alt="">
+              <h1 class="text-2xl mt-4 font-bold">Milk Tea</h1>
+              <p class="text-gray-400 mt-3">Creamer could be replaced by fresh milk</p>
+            </div>
+            <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
+              <img class="mx-auto pt-4 " src="images/tea-4.png" alt="">
+              <h1 class="text-2xl mt-4 font-bold">Milk Tea</h1>
+              <p class="text-gray-400 mt-3">Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+    </main>
 </body>
 </html>
